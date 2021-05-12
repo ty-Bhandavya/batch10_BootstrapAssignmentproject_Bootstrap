@@ -1,0 +1,65 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+body{
+background-image:url(images/10.webp);
+background-repeat:no-repeat;
+background-size:cover;
+font-family:Algerian;
+}
+h1{
+	font-family:Times New Roman;
+	font-weight:bold;
+	color:#2ECC71;
+}
+
+button{
+border-style:solid;
+border-color:black;
+border-width:3px;
+border-radius:20px;
+padding-top:20px;
+padding-bottom:20px;
+padding-left:20px;
+padding-right:20px;
+outline-offset:9px;
+margin-left:20px;
+margin-right:20px;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+P{
+	font-family:Bodoni MT;
+	font-size:30px;
+	font-weight:bolder;
+	font-style:italic;
+}
+.menu-bar{
+background:#DAF7A6 ;
+text-align:center;
+}
+.menu-bar ul{
+display:inline-flex;
+list-style:none;
+color:white;
+}
+.menu-bar ul li{
+width:150px;
+margin:20px;
+padding:20px;
+}
+.menu-bar ul li a{
+text-decoration:none;
+color:#FF5733 ;
+}
+.active, .menu-bar ul li a:hover{
+background:#FFC300;
+border-radius:3px;
+}
+.menu-bar .fa{
+margin-right:8px;
+}
